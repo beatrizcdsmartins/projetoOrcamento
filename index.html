@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Allcor, Seguros, Allcor Seguros">
+    <meta name="description" content="">
+
+    <title>Allcor Seguros | Cotação</title>
+
+    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
+    <!-- Loading Template CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+
+    <script type="text/javascript" src="js/main_refactory.js"></script>
+
+    <!-- Awsome Fonts -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Font Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+
+    <!-- Begin Main -->
+    <main role="tab-list">
+
+        <!-- Begin Header -->
+        <header id="header" class="container p-4 d-none">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="logo" src="images/logo_blue.png" alt="AllCor">
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Begin Background video step 2 to step 1 -->
+        <video id="backgroundVideoStep1" class="background-video reverse d-none" autoplay="false" muted data-poster="step_1.jpg">
+            <source src="videos/etapa_1_reverse.mp4" type="video/mp4">
+        </video>
+        <!-- End Background video -->
+
+        <!-- Begin Background video step 1 to step 2 -->
+        <video id="backgroundVideoStep2" class="background-video d-none" autoplay="false" muted data-poster="step_2.jpg" data-video="step_1_for_2.mp4">
+            <!-- <source src="videos/step_1_for_2.mp4" type="video/mp4">  -->
+        </video>
+        <!-- End Background video -->
+
+        <!-- Begin Background video step 2 to step 2-->
+        <video id="backgroundVideoStep3" class="background-video d-none" autoplay="false" muted data-poster="step_3.jpg" data-video="step_2_for_3.mp4">
+            <!-- <source src="videos/step_2_for_3.mp4" type="video/mp4"> -->
+        </video>
+        <!-- End Background video -->
+
+        <!-- Begin Background Video step 3 to step 4 -->
+        <video id="backgroundVideoStep4" class="background-video d-none" autoplay="false" muted data-poster="step_4.jpg" data-video="step_3_for_4.mp4">
+            <!-- <source src="videos/step_3_for_4.mp4" type="video/mp4"> -->
+        </video>
+        <!-- End Background Video  -->
+
+        <!-- Begin Background Video step 4 to step 5 -->
+        <video id="backgroundVideoStep5" class="background-video d-none" autoplay="false" muted data-poster="step_5.jpg" data-video="step_4_for_5.mp4">
+            <!-- <source src="videos/step_4_for_5.mp4" type="video/mp4"> -->
+        </video>
+        <!-- End Background Video  -->
+
+        <!-- Begin Background Video Final -->
+        <video id="backgroundVideoStep6" class="background-video d-none" autoplay="false" muted data-poster="final.jpg" data-video="final.mp4">
+            <!-- <source src="videos/final.mp4" type="video/mp4"> -->
+        </video>
+        <!-- End Background Video  -->
+
+        <!-- Begin Home -->
+        <section role="tabpanel" id="tabPanelHome" class="tabpanel d-flex align-items-center no-nav allcor bg-home">
+            <div class="container text-center text-uppercase">
+                <div id="item_0_0" class="step col-md-6 mx-auto">
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <img src="images/logo.png" class="w-100" alt="logo allcor" srcset="">
+                        </div>
+                    </div>
+                    <div class="row p-4 mb-4">
+                        <div class="col-md-12 mt-4">
+                            <p class="text-white ls-0 h3">Quer uma apólice customizada e econômica?</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" id="btnHome" class="text-white ls-0 btn btn-allcor-primary px-4 py-2 h5" 
+                                onclick="move(this, 0)">
+                                Vamos fazer
+                                <br>
+                                sua cotação!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Home -->
+
+        <!-- Begin Tab One -->
+        <section role="tabpanel" id="tabpanelStep1" class="tabpanel d-none align-items-center mob allcor bg-step-one pt-4">
+            <div class="container text-center text-uppercase">
+                <form id="form">
+                    
+                    <!-- Begin First tab -->
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <!-- Begin item 1.0 -->
+                            <div id="item_1_0" class="step row">
+                                <div class="col-md-4 offset-1">
+                                    <img src="images\logo_blue.png" width="100%">
+                                </div>
+
+                                <div class="col-md-6 card-primary p-4 mt-4">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="bold text-uppercase"> SEGURO DE TRANSPORTE É COM A ALLCOR!</p>
+                                            <p class="semibold"> Garantia de agilidade e tranquilidade do embarque ao destino.</p>
+                                            <p class="semibold"> Especialista em Seguro RCTR-C, Seguro RCF-DC, importação, exportação ou transporte nacional.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 mb-2">
+                                            <input class="form-control" type="text" name="name" id="name" placeholder="Nome inteiro *" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                        <div class="col-md-12 mb-2">
+                                            <input class="form-control" type="email" name="email" id="email" placeholder="E-mail *" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                        <div class="col-md-8 mb-4">
+                                            <input class="form-control" type="text" name="whatsapp" id="whatsapp" placeholder="WhatsApp *" min="14" data-type="cellphone" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button type="button" id="savemail" class="btn btn-primary"
+                                            onclick="move(this, 1)">Fazer Cotação</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item -->
+                        </div>
+                        <div class="col-md-6 mx-auto">
+                            <div class="row">
+
+                                <!-- Begin item 1.1 -->
+                                <div id="item_1_1" class="step col-md-12 d-none text-center">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="bold h4">Quer uma apólice <br> customizada e econômica?</p>
+                                            <p class="semibold">Vamos fazer sua cotação!</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End item 1.1 -->
+
+                                <!-- Begin item 1.2 -->
+                                <!-- <div id="item_1_2" class="step col-md-12 d-none">
+                                    <div class="row mb-4">
+                                        <div class="col-md-4">
+                                            <label class="bold mt-3">
+                                                Qual o seu nome?
+                                                </label> 
+                                            </div>
+                                            
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" name="name" id="name" value="">
+                                                <small class="text-danger"></small>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-4">
+                                            <div class="col-md-4">
+                                                <label class="bold mt-3">
+                                                    Seu whatsapp
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="col-md-8">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <input type="text" class="form-control" id="whatsapp" name="whatsapp" value="">
+                                                        <small class="text-danger"></small>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="row mt-2">
+                                                    <div class="col-md-12">
+                                                        <label class="checkbox-label" for="by_whatsapp">
+                                                            <input id="by_whatsapp" name="by_whatsapp" value="yes" type="checkbox" class="form-control-checkbox d-block">
+                                                            <span class="checkmark"></span>
+                                                            <small class="checkbox-text mt-1">Quero receber a cotação por WhatsApp</small>
+                                                        </label>    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!-- End item 1.2 -->
+
+                                    <!-- Begin item 2.0 -->
+                                    <div id="item_2_0" class="step col-md-12 d-none">
+                                    <!-- <p class="color-primary bold h3">Agora precisamos saber mais sobre sua empresa!</p> -->
+                                    <p class="color-primary bold h3">Precisamos saber mais sobre sua empresa!</p>
+                                </div>
+                                <!-- End item 2.0 -->
+
+                                <!-- Begin Item 2.1 -->
+                                <div id="item_2_1" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="commercial_name" class="bold">Nome comercial da sua empresa</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="commercial_name" id="commercial_name" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="cnpj" class="bold">cnpj</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="cnpj" id="cnpj" data-type="cnpj" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="landline" class="bold">Fone Fixo</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="fone_fixo" id="landline" data-type="cellphone" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 2.1 -->
+
+                                <!-- Begin Item 2.2 -->
+                                <!-- <div id="item_2_2" class="step col-md-12 d-none">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-2">
+                                                <label class="h3 bold">Endereço da matriz</label>
+                                            </div>
+
+                                            <div class="col-md-12 mb-4">
+                                                <input type="text" class="form-control" name="public_place" id="public_place" placeholder="LOGRADOURO">
+                                                <small class="text-danger"></small>
+                                            </div>
+
+                                            <div class="col-md-3 pr-0">
+                                                <input type="text" class="form-control" name="cep" id="cep" placeholder="CEP">
+                                                <small class="text-danger"></small>
+                                            </div>
+
+                                            <div class="col-md-6 pr-0">
+                                                <input type="text" class="form-control" name="city" id="city" placeholder="CIDADE">
+                                                <small class="text-danger"></small>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <input type="text" class="form-control" name="state" id="state" placeholder="ESTADO">
+                                                <small class="text-danger"></small>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                <!-- End Item 2.2 -->
+
+                                <!-- Begin Item 2.3 -->
+                                <!-- <div id="item_2_3" class="step col-md-12 d-none">
+                                        <div class="row mb-4">
+                                            <div class="col-md-4">
+                                                <label class="bold mt-3">Atividade</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" name="atividade" id="atividade" class="form-control">
+                                                <small class="text-danger"></small>
+                                            </div>
+                                        </div>
+                                        <div class="row mt">
+                                            <div class="col-md-4">
+                                                <label class="bold mt-3">rntrc</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" name="rntrc" id="rntrc" class="form-control">
+                                                <small class="text-danger"></small>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                <!-- End Item 2.3 -->
+
+                                <!-- Begin Item 3.0 -->
+                                <div id="item_3_0" class="step col-md-12 d-none">
+                                    <p class="color-primary bold h3">
+                                        <span class="clientName">
+                                            {Nome}
+                                        </span>
+                                        , agora é hora de falar sobre as cargas.
+                                    </p>
+                                    
+                                    <p class="color-primary semibold h3 mb-4">
+                                        Nos explique o que você transporta ou quer transportar.
+                                    </p>
+                                </div>
+                                <!-- End Item 3.0 -->
+
+                                <!-- Begin Item 3.1 -->
+                                <div id="item3_1" class="step col-md-12 d-none">
+                                    
+                                    <!-- Begin Label Item 3.1 -->
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <label class="h3 bold">
+                                                Mercadorias transportadas
+                                            </label>
+                                        </div>
+                                        <!-- <div class="col-md-2">
+                                            <label class="h3 bold">
+                                                %
+                                            </label>
+                                        </div> -->
+                                    </div>
+                                    <!-- End Label Item 3.2 -->
+
+                                    <!-- Begin Inputs Item 3.2 -->
+                                    <div class="row">
+                                        <div class="col-md-12 mb-2">
+                                            
+                                            <div id="transportedGoodsMainDiv" class="row">
+                                                <div class="col-md-8 pl-0">
+                                                    <select name="mercadorias_transportadas[mercadoria]" id="transportedGoods1Select" class="form-control h-100" data-div="transportedGoodsMainDiv" >
+                                                        <option selected disabled value="">
+                                                            Selecionar mercadoria
+                                                        </option>
+                                                        <!-- Options items -->
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-2 col-mb-6 mb-mt-2 px-0">
+                                                    <input type="text" name="mercadorias_transportadas[percent]" id="mercadorias_transportadas_percent_1" 
+                                                    data-parent="SELECT" class="form-control percent" placeholder="%" data-required="true">
+                                                </div>
+                                                <div class="col-md-2 col-mb-6 mb-mt-2">
+
+                                                    <button type="button" id="transportedGoodsAddButton" class="btn btn-outline-primary">
+                                                        Adicionar
+                                                    </button>
+                                            
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <small class="error-message text-danger"></small>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+                                    <!-- End Inputs Item 3.2 -->
+
+                                    <!-- Begin TransportedGoods div -->
+                                    <div id="transportedGoodsDiv" class="row box-scroll my-2"></div>
+                                    <!-- End TransportedGoods div -->
+                                    
+                                    <!-- Begin outers -->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <span class="bold">
+                                                Outros (Opcional):
+                                            </span>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="mercadorias_transportadas_outros" id="mercadoriasTransportadas">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- End Item 3.1 -->
+                                
+                                <!-- Begin Item 4.1 -->
+                                <div id="item_4_1" class="step col-md-12 d-none">
+                                    <p class="color-primary bold h3">
+                                        <span class="clientName">{Nome}</span>, precisamos de alguns outros dados sobre sua frota,
+                                    </p>
+
+                                    <p class="color-primary semibold h3">
+                                        Assim garantimos a melhor apólice para suas necessidades.
+                                    </p>
+                                </div>
+                                <!-- End Item 4.1 -->
+                                
+                                <!-- Begin Item 4.2 -->
+                                <div id="item_4_2" class="step col-md-12 d-none">
+                                    <!-- Begin Label Item 4.2 -->
+                                    <div class="row mb-2 text-center">
+                                        <div class="col-md-12">
+                                            <label class="h3 bold text-uppercase">
+                                                Sua Frota
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- End Label Item 4.2 -->
+                                    
+                                    <!-- Begin Inputs Item 4.2 -->
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_caminhoes" id="frota_caminhoes" class="form-control text-uppercase" placeholder="Caminhões" value="Caminhões" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_caminhoes_qnt" id="frota_caminhoes_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_rebocadores" id="frota_rebocadores" class="form-control text-uppercase" placeholder="Rebocadores" value="Rebocadores" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_rebocadores_qnt" id="frota_rebocadores_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_reboques" id="frota_reboques" class="form-control text-uppercase" placeholder="Reboques" value="Reboques" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_reboques_qnt" id="frota_reboques_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_motos" id="frota_motos" class="form-control text-uppercase" placeholder="Motos" value="Motos" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_motos_qnt" id="frota_motos_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_utilitarios" id="frota_utilitarios" class="form-control text-uppercase" placeholder="Utilitários" value="Utilitários" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_utilitarios_qnt" id="frota_utilitarios_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_automoveis" id="frota_automoveis" class="form-control text-uppercase" placeholder="Automóveis" value="Automóveis" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_automoveis_qnt" id="frota_automoveis_qnt" class="form-control" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <!-- End Inputs Item 4.2 -->
+                                </div>
+                                <!-- End Item 4.2 -->
+
+                                <!-- Begin Item 4.3 -->
+                                <div id="item_4_3" class="step col-md-12 d-none">
+
+                                    <!-- Begin Label Item 4.3 -->
+                                    <div class="row mb-4 text-center">
+                                        <div class="col-md-12">
+                                            <label class="h3 bold text-uppercase">
+                                                Como são suas viagens?
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- End Label Item 4.3 -->
+                                    
+                                    <!-- Begin Inputs Item 4.3 -->
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_viagens" id="frota_viagens" class="form-control semibold text-uppercase" placeholder="Viagens" value="Viagens" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="number" name="frota_viagens_qnt" id="frota_viagens_qnt" class="form-control semibold" placeholder="N°" min="0" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_propria" id="frota_propria" class="form-control semibold text-uppercase" placeholder="Frota Própria" value="Frota Própria" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="frota_propria_percent" id="frota_propria_percent" class="form-control semibold percent" placeholder="%" maxlength="7" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="agregados" id="agregados" class="form-control semibold text-uppercase" placeholder="Agregados" value="Agregados" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="agregados_percent" id="agregados_percent" class="form-control semibold percent" placeholder="%" maxlength="7" data-required="true" >
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="carreteiros" id="carreteiros" class="form-control semibold text-uppercase" placeholder="Carreteiros" value="Carreteiros" disabled>
+                                        </div>
+                                        <div class="col-md-6 col-mb-6">
+                                            <input type="text" name="carreteiros_percent" id="carreteiros_percent" class="form-control semibold percent" placeholder="%" maxlength="7" data-required="true" >
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <!-- End Inputs Item 4.3 -->
+
+                                </div>
+                                <!-- End Item 4.3 -->
+
+                                <!-- Begin Item 4.4 -->
+                                <div id="item_4_4" class="step col-md-12 d-none">
+                                    <!-- Begin Label Item 4.4 -->
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <label class="h3 bold">
+                                                Percursos nacionais e internacionais
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- End Label Item 4.4 -->
+
+                                    <!-- Begin Inputs Item 4.4 -->
+                                    <div class="row mb-4">
+                                        <div class="col-md-4 pl-0 mb-2">
+                                            <label class="sr-only" for="inlineFormInputGroupOrigin1"></label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text fnt-3">
+                                                        Origem
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control" id="inlineFormInputGroupOrigin1" name="national_international[origin]" data-required="true">
+                                                <small class="text-danger"></small>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-4 pl-0 mb-2">
+                                            <label class="sr-only" for="inlineFormInputGroupDestiny1"></label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text fnt-3">
+                                                        Destino
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control" id="inlineFormInputGroupDestiny1" name="national_international[destiny]" data-required="true">
+                                                <small id="nationalInternationalDestiny1Alert" class="text-danger"></small>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2 col-mb-8 pl-0 mb-2">
+                                            <input type="text" name="national_international[percent]" id="" class="form-control percent" placeholder="%" maxlength="7" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                        
+
+                                        <div class="col-md-2 col-mb-4 pl-0">
+                                            <button type="button" class="btn btn-primary" id="nationalInternationalTourAddbutton">Adicionar</button>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div id="nationalInternationalTourDiv" class="row box-scroll"></div>
+                                </div>
+                                <!-- End Item 4.4 -->
+
+                                <!-- Begin Item 5.0 -->
+                                <div id="item_5_0" class="step col-md-12 d-none">
+                                    <p class="bold h3">
+                                        <span class="clientName">
+                                            {Nome}
+                                        </span>
+                                        , estamos quase terminando!
+                                    </p>
+                                    
+                                    <p class="color-primary semibold h3">Agora é hora de falar sobre os seguros que você já tem!</p>
+                                </div>
+                                <!-- End Item 5.0 -->
+
+                                <!-- Begin Item 5.1 -->
+                                <div id="item_5_1" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <span class="h4 bold">
+                                                Seguro próprio isenção
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label class="bold mt-3">
+                                                embarcador
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="seguro_proprio_isencao_embarcador" id="seguroProprioIsencaoEmbarcador" value="" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="seguroProprioIsencaoMercadoria" class="bold mt-3">
+                                                Mercadoria
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="seguro_proprio_isencao_mercadoria" id="seguroProprioIsencaoMercadoria" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="seguroProprioIsencaoRamo" class="bold mt-3">
+                                                Ramo
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="seguro_proprio_isencao_ramo" id="seguroProprioIsencaoRamo" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.1 -->
+
+                                <!-- Begin Item 5.2 -->
+                                <div id="item_5_2" class="step col-md-12 d-none">
+                                    <div class="row mb-4">
+                                        <div class="col-md-12">
+                                            <span class="h4 bold">
+                                                Seguro atual
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <span for="seguroAtualCia" class="bold mt-3">
+                                                Cia
+                                            </span>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="seguro_atual_cia" id="seguroAtualCia" data-required="true">
+                                            <small class="text-danger"></small>
+
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="seguroAtualCorretor" class="bold mt-2">
+                                                Corretor
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" name="seguro_atual_corretor" id="seguroAtualCorretor" data-required="true">
+                                            <small class="text-danger"></small>
+
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row mb-4">
+                                            <div class="col-md-4">
+                                                <label for="tipoDeAverbacao" class="bold">
+                                                    Tipo de averbação
+                                                </label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" name="seguro_atual_tipo_de_averbacao" id="seguroAtualTipoDeAverbacao">
+                                            </div>
+                                        </div> -->
+                                        <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="seguroAtualVencimento" class="bold mt-3">
+                                                Vencimento
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="date" class="form-control" name="seguro_atual_vencimento" id="seguroAtualVencimento" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.2 -->
+
+                                <!-- Begin Item 5.3 -->
+                                <div id="item_5_3" class="step col-md-12 d-none">
+                                    <div class="row mb-4">
+                                        <div class="col-md-12">
+                                            <span class="bold h3">
+                                                RCTR-C
+                                            </span>
+                                            <br>
+                                            <span class="semibold">
+                                                (Responsabilidade Civil Do Transportador Rodoviário De Carga)
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rctrcPremio" class="bold fnt-3">
+                                                Valor médio transportado / viagem
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rctrc_valor_medio_transportado_por_viagem" id="rctrcValorMedioTransportadoPorViagem" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rctrcValorMercadoria" class="bold fnt-3">
+                                                Valor de mercadoria transportada / mês
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rctrc_valor_mercadoria_por_mes" id="rctrcValorMercadoriaPMes" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rctrcValorPagoPMes" class="bold fnt-3">
+                                                Valor pago no seguro por mês
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rctrc_valor_pago_no_seguro_por_mes" id="rctrcValorPagoPMes" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="rctrcLMG" class="bold fnt-3">
+                                                Limite maxímo de garantia
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rctrc_lmg" id="rctrcLMG" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.3 -->
+
+                                <!-- Begin Item 5.4 -->
+                                <div id="item_5_4" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <span class="bold h3">
+                                                RCF-DF
+                                            </span>
+                                            <br>
+                                            <span class="semibold">
+                                                (Responsabilidade Civil Facultativa Por Desaparecimento De Carga)
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rcfdfPremio" class="bold fnt-3">
+                                                Valor médio transportado / viagem
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rcfdf_valor_medio_transportado_por_viagem" id="rcfdfValorMedioTransportadoPorViagem" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rcfdfValorMercadoria" class="bold fnt-3">
+                                                Valor de mercadoria transportada / mês
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rcfdf_valor_mercadoria_por_mes" id="rcfdfValorMercadoria" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mb-2">
+                                        <div class="col-md-4">
+                                            <label for="rcfdfValorPagoPMes" class="bold fnt-3 ">
+                                                Valor pago no seguro por mês
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rcfdf_valor_pago_no_seguro_por_mes" id="rcfdfValorPagoPMes" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="rcfdfLMG" class="bold fnt-3">
+                                                Limite máximo de garantia
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control money" name="rcfdf_lmg" id="rcfdfLMG" data-required="true">
+                                            <small class="text-danger"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.4 -->
+
+                                <!-- Begin Item 5.5 -->
+                                <div id="item_5_5" class="step col-md-12 d-none">
+                                    <div class="row mb-4">
+                                        <div class="col-md-12">
+                                            <span class="bold h4">
+                                                Coberturas Adicionais e Particularidades
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularesOcdi">
+                                                <input id="coberturasAdicionaisEParticularesOcdi" name="coberturas_adicionais_e_particulares_ocdi" value="coberturas_adicionais_e_particulares_ocdi" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">OCDI</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularescomplementarFluvial">
+                                                <input id="coberturasAdicionaisEParticularescomplementarFluvial" name="coberturas_adicionais_e_particulares_complementar_fluvial" value="coberturas_adicionais_e_particulares_complementar_fluvial" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Complementar Fluvial</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularesImpostosSuspensos">
+                                                <input id="coberturasAdicionaisEParticularesImpostosSuspensos" name="coberturas_adicionais_e_particulares_impostos_suspensos" value="coberturas_adicionais_e_particulares_impostos_suspensos" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Impostos Suspensos</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularesAvarias">
+                                                <input id="coberturasAdicionaisEParticularesAvarias" name="coberturas_adicionais_e_particulares_avarias" value="coberturas_adicionais_e_particulares_avarias" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Avarias</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularesLimpezaPista">
+                                                <input id="coberturasAdicionaisEParticularesLimpezaPista" name="coberturas_adicionais_e_particulares_limpeza_pista" value="coberturas_adicionais_e_particulares_limpeza_pista" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Limpeza de pista</span>
+                                            </label>
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label class="checkbox-label" for="coberturasAdicionaisEParticularesContainers">
+                                                <input id="coberturasAdicionaisEParticularesContainers" name="coberturas_adicionais_e_particulares_containers" value="coberturas_adicionais_e_particulares_containers" type="checkbox" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Containers</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-md-12 mb-2">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label for="coberturasAdicionaisEParticularesOutros" class="bold">
+                                                        Outros:
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input class="form-control" type="text" name="coberturas_adicionais_e_particulares_outros" id="coberturasAdicionaisEParticularesOutros">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.5 -->
+
+                                <!-- Begin Item 5.6 -->
+                                <div id="item_5_6" class="step col-md-12 d-none">
+                                    <div class="row mb-4">
+                                        <div class="col-md-12">
+                                            <label for="quantidadeSinistros" class="h4 bold">
+                                                Quantidade de sinistros
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col-md-12">
+                                            <div class="row mb-2">
+                                                <div class="col-md-4">
+                                                    <label for="houvesinistros" class="bold">
+                                                        Houve sinistros?
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-6 mb-2">
+                                                            <label class="checkbox-label" for="houvesinistrosSim">
+                                                                <input id="houvesinistrosSim" name="houvesinistros" value="sim" type="radio" class="form-control-checkbox d-block">
+                                                                <span class="checkmark"></span>
+                                                                <span class="checkbox-text mt-1">sim</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-md-6 mb-2">
+                                                            <label class="checkbox-label" for="houvesinistrosNao">
+                                                                <input id="houvesinistrosNao" name="houvesinistros" value="nao" type="radio" class="form-control-checkbox d-block" checked>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checkbox-text mt-1">não</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-2">
+                                                <div class="col-md-4">
+                                                    <label for="quatidadeSinistros" class="bold">
+                                                        Quantos
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input class="form-control" type="text" name="quantidade_sinistros" id="quatidadeSinistros">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label for="SinistrosValorTotal" class="bold">
+                                                        Valor Total
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input class="form-control" type="text" name="sinistros_valor_total" id="SinistrosValorTotal">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.6 -->
+                                
+                                <!-- Begin Item 5.9 -->
+                                <div id="item_5_9" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <span class="bold h4">
+                                                Monitoramento
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8 mx-auto">
+                                            <div class="row">
+                                                <div class="col-md-6 mb-2">
+                                                    <label class="checkbox-label" for="monitoramentoProprio">
+                                                        <input id="monitoramentoProprio" name="monitoramento" value="proprio" type="radio" class="form-control-checkbox d-block" checked>
+                                                        <span class="checkmark"></span>
+                                                        <span class="checkbox-text mt-1">próprio</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label class="checkbox-label" for="monitoramentoTerceirizado">
+                                                        <input id="monitoramentoTerceirizado" name="monitoramento" value="terceirizado" type="radio" class="form-control-checkbox d-block" checked>
+                                                        <span class="checkmark"></span>
+                                                        <span class="checkbox-text mt-1">terceirizado</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label class="checkbox-label" for="monitoramentoConjugado">
+                                                        <input id="monitoramentoConjugado" name="monitoramento" value="conjugado" type="radio" class="form-control-checkbox d-block" checked>
+                                                        <span class="checkmark"></span>
+                                                        <span class="checkbox-text mt-1">conjugado</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <label for="cadastroMonitoramentoEmpresa" class="bold">
+                                                                Empresa
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <input type="text" class="form-control" name="cadastro_monitoramento_empresa" id="cadastroMonitoramentoEmpresa">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.9 -->
+
+
+                                <!-- Novo Campo - ESCOLTA -->
+
+                                <div id="item_5_10" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <label class="bold h4">
+                                                Escolta
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 mb-2">
+                                            <label class="checkbox-label" for="cadastroEscoltaSim">
+                                                <input id="cadastroEscoltaSim" name="cadastro_escolta" value="sim" type="radio" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Sim</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12 mb-2">
+                                            <label class="checkbox-label" for="cadastroEscoltaNao">
+                                                <input id="cadastroEscoltaNao" name="cadastro_escolta" value="nao" type="radio" class="form-control-checkbox d-block" checked>
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Não</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label for="cadastroEscoltaEmpresa" class="bold">
+                                                        Empresa
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" name="cadastro_escolta_empresa" id="cadastroEscoltaEmpresa">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                  <!-- Fim do Campo - ESCOLTA -->
+                                
+                                <!-- Begin Item 5.11 -->
+                                <div id="item_5_11" class="step col-md-12 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-md-12">
+                                            <label class="bold h4">
+                                                Cadastro / Consulta do motorista
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 mb-2">
+                                            <label class="checkbox-label" for="cadastroConsultaMotoristaSim">
+                                                <input id="cadastroConsultaMotoristaSim" name="cadastro_consulta_motorista" value="sim" type="radio" class="form-control-checkbox d-block">
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Sim</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12 mb-2">
+                                            <label class="checkbox-label" for="cadastroConsultaMotoristaNao">
+                                                <input id="cadastroConsultaMotoristaNao" name="cadastro_consulta_motorista" value="nao" type="radio" class="form-control-checkbox d-block" checked>
+                                                <span class="checkmark"></span>
+                                                <span class="checkbox-text mt-1">Não</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label for="cadastroConsultaMotoristaEmpresa" class="bold">
+                                                        Empresa
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control" name="cadastro_consulta_motorista_empresa" id="cadastroConsultaMotoristaEmpresa">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item 5.11 -->
+
+                                <!-- Begin Final Item -->
+                                <div id="item_6" class="step col-md-12 d-none">
+                                    <p class="bold h3">
+                                        <span class="clientName">
+                                            {Nome}
+                                        </span>
+                                        , nós já temos todos os dados necessários para criar a sua simulação de apólice!
+                                    </p>
+                                    <p class="semibold h4 mb-4">
+                                        prepare-se para conhecer a agilidade e profissionalismo allcor.
+                                    </p>
+
+                                    <p class="semibold h4 mb-4">
+                                        em breve nós entraremos em contato, com sua cotação!
+                                    </p>
+
+                                    <p class="semibold h3">
+                                        obrigado!
+                                    </p>
+                                </div>
+                                <!-- End Final Item -->
+                                
+                                <!-- Begin Button -->
+                                <div class="col-md-12 mx-auto mt-4">
+                                    <button type="button" id="prev" class="btn btn-outline-secondy d-none dsk mr-2" 
+                                    onclick="move(this, -1)">
+                                        Voltar
+                                    </button>
+                                    <button type="button" id="next" class="btn btn-outline-primary d-none"
+                                    onclick="move(this, 1)">
+                                        Próximo
+                                    </button>
+                                </div>
+                                <!-- End Button -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End First Step -->
+                </form>
+            </div>
+        </section>
+        <!-- End Tab One -->
+
+    </main>
+    <!-- End Main -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maskMoney.js"></script>
+    <!-- <script type="module" src="js/main_refactory.js"></script> -->
+    <script src="js/custom.js"></script>
+    <!-- <script type="module" src="js/main.js"></script> -->
+
+</body>
+
+</html>

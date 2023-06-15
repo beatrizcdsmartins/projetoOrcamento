@@ -1,0 +1,7 @@
+{
+	"required": "Preencha este campo!",
+	"email": "Insira um Email válido",
+	"cellphone": "Insira um número de telefone válido",
+	"cnpj": "Insira um cnpj válido",
+	"select": "Nenhum item selecionado"
+}

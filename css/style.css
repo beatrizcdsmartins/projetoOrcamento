@@ -1,0 +1,234 @@
+
+/* ========================================================== */
+/* 			         BEGIN GERAL PÁGINA                       */
+/* ========================================================== */
+
+:root {
+    --color-primary: #0B5275;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --font-primary: Open Sans;
+    --font-primary-semibold: Open Sans Semibold;
+    --font-primary-bold: Open Sans Bold;
+}
+
+@font-face { font-family: 'Open Sans'; src: url("../webfonts/OpenSans-Regular.ttf") format('OpenType'); }
+
+@font-face { font-family: 'Open Sans Bold'; src: url('../webfonts/OpenSans-ExtraBold.ttf') format('OpenType'); }
+
+@font-face { font-family: 'Open Sans SemiBold'; src: url('../webfonts/OpenSans-SemiBold.ttf') format('OpenType'); }
+
+.semibold { font-family: var(--font-primary-semibold) !important; }
+
+#divPrevious { position: absolute; bottom: 10%; right: 10%; }
+
+.bold { font-family: var(--font-primary-bold) !important; }
+
+html { scroll-behavior: smooth; }
+body { background-size: 1366px; font-family: var(--font-primary) !important; color: var(--color-primary); }
+header {height: 100px;}
+
+.required:after {
+  content:" *"; 
+  color: red;
+}
+
+ul { padding: 0; }
+
+ul, ol {  list-style: none;  list-style-image: none;  margin: 0;  padding: 0; color:#858585; font-size: 14px; line-height:24px; margin-bottom:20px; }
+
+ul li, ol li { font-size: 17px; line-height: 28px; font-family: 'Open Sans'; list-style-type: none; }
+
+ul li i { vertical-align: middle; padding-right: 5px; }
+
+p { font-size: 17px; line-height: 23px; font-weight: 400; color: var(--color-primary); margin-bottom: 15px; }
+
+a, a:hover, a:focus, a:active, a:visited { text-decoration: none; outline: 0; }
+
+a:hover { color: var(--color-white); }
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-primary); line-height: 1.2; margin-top: 0; margin-bottom: 20px; color: #000000; font-weight: 400; }
+
+.opacity-1 { opacity: 1 !important; }
+
+.ls-0 { letter-spacing: 0px !important; }
+
+.lh-1 { line-height: 1rem;}
+
+::placeholder { color: var(--color-primary); }
+
+div.color-primary label, div.color-primary p, .color-primary { color: var(--color-primary); }
+
+.card-primary { background: transparent 0% 0% no-repeat padding-box; border: 3px solid var(--color-primary); padding: 10px 10px; border-radius: 48px; opacity: 1; backdrop-filter: blur(13px); -webkit-backdrop-filter: blur(13px); }
+
+header .logo { width: 150px; }
+
+.box-scroll { max-height: 200px;  overflow-y: scroll; }
+
+.fnt-3 { font-size: 0.75rem !important;}
+
+button { cursor: pointer !important;}
+
+/* ========================================================== */
+/* 			         END GERAL PÁGINA                         */
+/* ========================================================== */
+
+.btn-allcor-primary { background: var(--color-primary) 0% 0% no-repeat padding-box; border: 2px solid var(--color-white); border-radius: 10px; opacity: 1; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+
+.btn.btn-primary { background-color: var(--color-primary); border: 2px solid var(--color-primary); }
+
+.btn.btn-primary:hover { background-color: transparent; color: var(--color-primary); font-weight: bold; }
+
+.btn.btn-outline-primary { color: var(--color-primary); font-weight: bold; border: 2px solid var(--color-primary) !important; text-transform: uppercase; font-family: var(--font-primary-bold); }
+
+.btn.btn-outline-primary:hover { background-color: var(--color-primary) !important; color: var(--color-white) !important; border: 2px solid var(--color-white); }
+
+.btn.btn-outline-secondy {background-color: transparent; color: var(--color-primary) !important; font-weight: bold; border: none; text-transform: uppercase; font-family: var(--font-primary-bold);}
+.btn.btn-outline-secondy:hover {border: 2px solid #0B5275; }
+
+.bottom-0 { position: absolute; bottom: 0; left: 0;}
+
+.mt-6 { margin-top: 3.35rem !important; }
+
+/* Hide the browser's default checkbox */
+/* Hide the browser's default checkbox */
+.checkbox-label input.form-control-checkbox { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+                            
+/* Create a custom checkbox */
+.checkmark { position: absolute; top: 0; left: 15px; height: 25px; width: 25px; background-color: transparent; border: 2px solid var(--color-primary); border-radius: 5px;}
+
+.checkbox-label .checkbox-text { position: absolute; top:0; left: 50px; }
+
+/* On mouse-over, add a grey background color */
+.checkbox-label:hover input ~ .checkmark { background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-label input:checked ~ .checkmark { background-color: var(--color-primary);  }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after { content: ""; position: absolute; display: none;}
+
+/* Show the checkmark when checked */
+.checkbox-label input:checked ~ .checkmark:after { display: block; }
+
+/* Style the checkmark/indicator */
+.checkbox-label .checkmark:after { left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+
+.form-control:focus, .form-control { color: var(--color-primary); font-weight: bold; background-color: transparent; border: 2px solid var(--color-primary); }
+
+.form-control::placeholder { color: var(--color-primary); }
+
+.allcor .form-control.percent::placeholder {text-align: right;}
+
+.allcor .form-control:disabled { background-color: var(--color-primary); color: var(--color-white);}
+.allcor .form-control::first-letter{ text-transform: uppercase;}
+
+.allcor input.form-control { padding: 1.5rem 1rem 1.5rem 0.5rem; }
+
+.btn { padding: 0.75rem 0.75rem ;}
+
+.input-group-text { background-color: var(--color-primary); font-family: var(--font-primary-semibold); color: var(--color-white); border: solid 1px var(--color-primary); }
+
+/* ============================================================= */
+/*                  Background's                                 */
+/* ============================================================= */
+
+.background-video { width: 100vw; height: auto; object-fit: cover; position: fixed; left: 0; right: 0; top: 100px; bottom: 0; z-index: -1; }
+
+.bg-no-repeat { background-repeat: no-repeat; }
+.allcor.bg-home       { background-image: url('../images/bg-home.jpg');}
+.allcor.bg-step-one   { background-image: url('../images/step_1.jpg'); }
+.allcor.bg-step-two   { background-image: url('../images/step_2.jpg'); }
+.allcor.bg-step-three { background-image: url('../images/step_3.jpg'); }
+.allcor.bg-step-four  { background-image: url('../images/step_4.jpg'); }
+.allcor.bg-step-five  { background-image: url('../images/step_5.jpg'); }
+
+
+nav.navbar { width: 100% !important; height: 90px !important; }
+
+section.tabpanel { width: 100% !important; height: 90vh !important; background-size: cover; object-fit: cover; }
+section#tabPanelHome{ height: 100vh !important;}
+
+@media screen and (min-width: 1366px) {
+
+    nav.navbar { width: 100% !important; height: 90px !important; }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    nav.navbar { width: 1920px !important; height: 100px !important; }
+}
+
+@media screen and (min-width: 2048px) {
+
+  nav.navbar { width: 100% !important; height: 100px !important; }
+}
+
+@media screen and (min-width: 3840px) {
+
+  nav.navbar { width: 100% !important; height: 100px !important; }
+}
+
+@media screen and (max-width: 992px) {
+  
+  section.tabpanel{ height: 100vh !important;}
+  body { background-color: #FFFFFF; font-size: 12px; }
+  header {display: none;}
+  p { font-size: 12px; }
+  video {display: none;}
+  input, button, label, select {font-size: 12px !important;}
+  .h3 { font-size: 1.0rem;}
+  .h4 { font-size: 0.75rem; }
+
+  .col-mb-2 { max-width: 16.666667%; }
+  .col-mb-3 { max-width: 25%; }
+  .col-mb-4 { max-width: 33.333333%; }
+  .col-mb-6 { max-width: 50%; padding: 0; }
+  .col-mb-8 { max-width: 66.666667%;}
+  .col-mb-9 { max-width: 75%; }
+  .col-mb-10 { max-width: 83.333333%; }
+
+  .allcor input.form-control {
+    padding: 1rem 1rem 1rem 0.5rem;
+  }
+
+  .btn{ padding: 0.5rem 0.5rem; }
+
+  .row { margin-left: 0px !important;}
+
+  .mob.allcor.bg-step-one   { 
+    background-image: url('../images/mobile/step_1.jpg');
+    background-position-x: left;
+  }
+
+  .mob.allcor.bg-step-two   { 
+    background-image: url('../images/mobile/step_2.jpg');
+    background-position-x: left;
+  }
+
+  .mob.allcor.bg-step-three { 
+    background-image: url('../images/mobile/step_3.jpg');
+    background-position-x: left;
+  }
+
+  .mob.allcor.bg-step-four  { 
+    background-image: url('../images/mobile/step_4.jpg');
+    background-position-x: right;
+  }
+
+  .mob.allcor.bg-step-five  { 
+    background-image: url('../images/mobile/step_5.jpg');
+    background-position-x: right;
+  }
+
+  .mob.allcor.bg-final { 
+    background-image: url('../images/mobile/final.jpg');
+    background-position-x: right;
+  }
+
+  .background-video { top: 80px !important; }
+  .mb-mt-2{ margin-top: 0.5rem;}
+  .dsk.mr-2 { margin-right: 0 !important;}
+
+}
